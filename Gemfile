@@ -30,6 +30,9 @@ gem 'bootstrap-sass'
 # Devise
 gem 'devise', '~> 3.1.0.rc2'
 
+# paperclip. Posting pictures 
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
