@@ -35,6 +35,8 @@ gem 'devise', '~> 3.1.0.rc2'
 # paperclip. Posting pictures 
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
+gem 'aws-sdk', '~> 1.20.0' 
+
 #jquery masonry 
 gem 'masonry-rails', '~> 0.2.0'
 
